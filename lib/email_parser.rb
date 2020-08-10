@@ -17,9 +17,9 @@
 
 class EmailAddressParser
    def initialize(emails)
-     @emails = emails 
+     @emails = emails
    end
-  
+
    def parse(emails)
      @parse = parse
      self.uniq
