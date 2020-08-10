@@ -15,6 +15,13 @@
 #end
 #
 
-def EmailAddressParser
-
+class EmailAddressParser
+   def initialize(emails)
+     @emails = emails 
+   end
+  
+   def parse(emails)
+     @parse = parse
+     self.uniq
+   end
 end
